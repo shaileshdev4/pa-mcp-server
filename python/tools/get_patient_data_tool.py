@@ -1,4 +1,5 @@
 from typing import Annotated
+import httpx
 from mcp.server.fastmcp import Context
 from pydantic import Field
 from fhir_client import FhirClient
@@ -24,31 +25,48 @@ async def get_patient_data(
 
     client = FhirClient(base_url=fhir_context.url, token=fhir_context.token)
 
-    patient = await client.read(f"Patient/{patientId}")
-    if not patient:
-        return create_text_response("Patient not found.", is_error=True)
+    async def safe_read(path: str) -> dict | None:
+        try:
+            return await client.read(path)
+        except httpx.HTTPStatusError:
+            return None
 
-    conditions = await client.search("Condition", {"patient": patientId, "_count": "20"})
-    medications = await client.search("MedicationRequest", {"patient": patientId, "_count": "20"})
-    encounters = await client.search("Encounter", {"patient": patientId, "_count": "5", "_sort": "-date"})
-    documents = await client.search("DocumentReference", {"patient": patientId, "_count": "5", "_sort": "-date"})
+    async def safe_search(resource_type: str, params: dict[str, str]) -> dict | None:
+        try:
+            return await client.search(resource_type, params)
+        except httpx.HTTPStatusError:
+            return None
+
+    patient = await safe_read(f"Patient/{patientId}")
+    conditions = await safe_search("Condition", {"patient": patientId, "_count": "20"})
+    medications = await safe_search("MedicationRequest", {"patient": patientId, "_count": "20"})
+    encounters = await safe_search("Encounter", {"patient": patientId, "_count": "5", "_sort": "-date"})
+    documents = await safe_search("DocumentReference", {"patient": patientId, "_count": "5", "_sort": "-date"})
 
     def extract_entries(bundle):
         if not bundle:
             return []
         return [e["resource"] for e in bundle.get("entry", [])]
 
+    patient_name = None
+    patient_birth_date = None
+    patient_gender = None
+    if patient:
+        patient_name = patient.get("name", [{}])[0].get("text") or (
+            " ".join(
+                patient.get("name", [{}])[0].get("given", []) +
+                [patient.get("name", [{}])[0].get("family", "")]
+            )
+        )
+        patient_birth_date = patient.get("birthDate")
+        patient_gender = patient.get("gender")
+
     result = {
         "patient": {
-            "id": patient.get("id"),
-            "name": patient.get("name", [{}])[0].get("text") or (
-                " ".join(
-                    patient.get("name", [{}])[0].get("given", []) +
-                    [patient.get("name", [{}])[0].get("family", "")]
-                )
-            ),
-            "birthDate": patient.get("birthDate"),
-            "gender": patient.get("gender"),
+            "id": patient.get("id") if patient else patientId,
+            "name": patient_name,
+            "birthDate": patient_birth_date,
+            "gender": patient_gender,
         },
         "conditions": [
             {
