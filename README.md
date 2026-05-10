@@ -12,7 +12,9 @@ Built for [Agents Assemble — The Healthcare AI Endgame](https://agents-assembl
 
 The **PA Authorization Agent** (BYO) orchestrates these tools; judges attach **this MCP** in Launchpad and run the demo prompts below.
 
-Also see the upstream Prompt Opinion community overview in this repo’s historical layout ([SHARP-on-MCP](https://www.sharponmcp.com/)).
+Also see the upstream Prompt Opinion community overview and [SHARP-on-MCP](https://www.sharponmcp.com/) — this **fork** keeps only the **Python** PA Tools MCP and demo assets for the hackathon.
+
+**Repository layout (submission only):** `python/` (FastMCP server), `demo-data/` (synthetic patients), `DEMO_VIDEO_SCRIPT_FINAL.md`, `Procfile` (e.g. Railway), `README.md`, `.gitignore`. No .NET, TypeScript, or template CI in this public branch.
 
 ---
 
