@@ -1,4 +1,7 @@
-# Local development
+# Local development (PA Tools MCP)
+
+**Hackathon README + `demo-data`:** [../../README.md](../../README.md) · GitHub: [github.com/shaileshdev4/pa-mcp-server](https://github.com/shaileshdev4/pa-mcp-server).  
+**Final demo script / prompts:** [../DEMO_VIDEO_SCRIPT_FINAL.md](../DEMO_VIDEO_SCRIPT_FINAL.md).
 
 **HIPAA / Groq:** For production use with PHI, Groq offers a [Business Associate Addendum (BAA)](https://console.groq.com/docs/legal/customer-business-associate-addendum). Local demos should use synthetic or test data unless you have agreements in place.
 

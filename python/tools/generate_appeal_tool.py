@@ -7,7 +7,12 @@ from fhir_utilities import get_patient_id_if_context_exists
 from mcp_utilities import create_text_response
 import httpx
 
+from dotenv import load_dotenv
+
+load_dotenv()
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+
 
 SAFETY_INSTRUCTION = """
 CRITICAL SAFETY INSTRUCTION — READ BEFORE GENERATING:

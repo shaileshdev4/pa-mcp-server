@@ -1,0 +1,103 @@
+PRIOR AUTHORIZATION CLINICAL DOCUMENTATION
+Date: March 14, 1982
+Patient: Jennifer Mitchell
+DOB: March 14, 1982 | Age: 43 | Gender: Female
+Attending: Dr. Sarah Mitchell, MD - Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215
+
+PRIMARY DIAGNOSIS:
+
+Acute Lymphoblastic Leukemia (ALL), B-cell precursor, High-Risk
+ICD-10-CM: C91.00
+
+RECEPTOR STATUS:
+Ph-negative (BCR-ABL1 negative)
+MRD negative at end of induction (flow cytometry)
+CNS1 status (no CNS involvement)
+TREATMENT PROTOCOL:
+
+NCCN ALL Protocol (High-Risk Adult B-cell ALL)
+
+PRIOR TREATMENT HISTORY:
+
+1. Induction Phase (January 2026 - February 2026): COMPLETED
+
+Vincristine 1.5mg/m² IV weekly x 4 doses
+Daunorubicin 25mg/m² IV weekly x 4 doses
+PEG-Asparaginase 2500 IU/m² IM x 2 doses
+Dexamethasone 6mg/m² oral x 28 days
+
+OUTCOME: Complete morphologic remission achieved (Day 29 bone marrow)
+MRD: Negative (<0.01%) by flow cytometry
+
+2. Consolidation Phase (February 2026 - March 2026): COMPLETED
+
+High-dose Methotrexate 5g/m² IV x 2 cycles (Cycles 1-2)
+Leucovorin rescue per protocol
+6-Mercaptopurine 60mg/m² oral daily
+Intrathecal Methotrexate x 4 doses (CNS prophylaxis)
+
+TOLERANCE: Good. Grade 1 mucositis only. No dose reductions required.
+Methotrexate clearance adequate on all cycles.
+
+CURRENT REQUEST - PRIOR AUTHORIZATION REQUIRED:
+
+Medication: High-dose Methotrexate (HD-MTX) 5g/m² IV
+Cycle: Interim Maintenance Phase - Cycles 3 and 4
+Frequency: Every 3 weeks x 2 cycles
+Estimated Cost: $18,500 per cycle
+
+MEDICAL NECESSITY STATEMENT:
+
+High-dose Methotrexate is a REQUIRED component of the NCCN ALL Protocol Interim
+Maintenance regimen for high-risk B-cell ALL. This is not an alternative
+treatment - omission constitutes deviation from evidence-based standard of care.
+
+Evidence Base:
+NCCN ALL Protocol trial (N=3,291): HD-MTX arm demonstrated superior 5-year EFS
+(90.4% vs 83.7%) compared to oral methotrexate in high-risk ALL
+NCCN Category 1 recommendation for HD-MTX in adult ALL consolidation
+Per NCCN protocol, patient meets ALL eligibility criteria:
+Confirmed B-cell ALL with high-risk features
+Age 18-60 years at diagnosis: YES (age 43)
+MRD-negative complete remission achieved: YES
+Adequate organ function confirmed (see labs below)
+No prior severe MTX toxicity: CONFIRMED
+CURRENT LABS (April 8, 2026):
+WBC: 3.2 x10⁹/L (recovering, expected)
+ANC: 1,100 cells/uL (adequate for treatment)
+Hemoglobin: 10.1 g/dL
+Platelets: 112 x10⁹/L
+Creatinine: 0.4 mg/dL | GFR: >60 mL/min/1.73m² (ELIGIBLE)
+ALT: 28 U/L | AST: 24 U/L (normal liver function - ELIGIBLE)
+Bilirubin: 0.6 mg/dL (normal - ELIGIBLE)
+Serum albumin: 3.8 g/dL (normal)
+ECOG Performance Status:
+
+1 (Fully active with minor restrictions)
+
+Weight: 68 kg | BSA: 1.78 m²
+
+CONSEQUENCES OF DENIAL:
+
+If this PA is denied and treatment is delayed:
+
+Increased risk of relapse - data shows >15% reduction in EFS with protocol delays
+ALL relapse in adult patients carries <40% long-term survival
+Relapse treatment requires stem cell transplant ($500,000+) vs current protocol cost
+Delay of >21 days from scheduled date requires protocol deviation and IRB review
+ATTENDING ATTESTATION:
+
+I, Dr. Sarah Mitchell, MD, board-certified Medical Oncologist,
+attest that:
+
+This patient has been evaluated in person on April 8, 2026
+HD-MTX Cycles 3-4 are medically necessary per NCCN ALL Protocol
+No clinically appropriate alternative treatment exists
+Patient and family have provided informed consent
+All eligibility criteria for continued protocol treatment are met
+
+Dr. Sarah Mitchell, MD
+Medical Oncologist
+Dana-Farber Cancer Institute, Boston, MA 02215
+License: MA-ONC-45821 | NPI: 1234567890
+Phone: 617-555-0247 | Fax: 617-555-0248

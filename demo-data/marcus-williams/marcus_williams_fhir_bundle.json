@@ -1,0 +1,94 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "marcus-williams-001",
+        "name": [{"use": "official", "family": "Williams", "given": ["Marcus"]}],
+        "gender": "male",
+        "birthDate": "1968-04-12",
+        "identifier": [{"system": "urn:mrn", "value": "MW-2026-0501"}]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "sepsis-001",
+        "clinicalStatus": {"coding": [{"code": "active"}]},
+        "code": {
+          "coding": [{"system": "http://hl7.org/fhir/sid/icd-10-cm",
+            "code": "A41.9", "display": "Sepsis, unspecified organism"}]
+        },
+        "subject": {"reference": "Patient/marcus-williams-001"},
+        "onsetDateTime": "2026-05-01"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dm-001",
+        "clinicalStatus": {"coding": [{"code": "active"}]},
+        "code": {
+          "coding": [{"system": "http://hl7.org/fhir/sid/icd-10-cm",
+            "code": "E11.9", "display": "Type 2 diabetes mellitus"}]
+        },
+        "subject": {"reference": "Patient/marcus-williams-001"}
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "lactate-001",
+        "status": "final",
+        "code": {"coding": [{"system": "http://loinc.org",
+          "code": "2524-7", "display": "Lactate [Moles/volume] in Serum"}]},
+        "subject": {"reference": "Patient/marcus-williams-001"},
+        "effectiveDateTime": "2026-05-01T11:45:00Z",
+        "valueQuantity": {"value": 2.8, "unit": "mmol/L"}
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "wbc-001",
+        "status": "final",
+        "code": {"coding": [{"system": "http://loinc.org",
+          "code": "6690-2", "display": "WBC [#/volume] in Blood"}]},
+        "subject": {"reference": "Patient/marcus-williams-001"},
+        "effectiveDateTime": "2026-05-01T11:45:00Z",
+        "valueQuantity": {"value": 18200, "unit": "cells/uL"}
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy-pen-001",
+        "clinicalStatus": {"coding": [{"code": "active"}]},
+        "type": "allergy",
+        "criticality": "high",
+        "code": {"coding": [{"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "7980", "display": "Penicillin"}]},
+        "patient": {"reference": "Patient/marcus-williams-001"},
+        "reaction": [{"manifestation": [{"coding": [{"display": "Anaphylaxis"}]}]}]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "meropenem-pa-001",
+        "status": "draft",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [{"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "41493", "display": "Meropenem 1g IV q8h"}]
+        },
+        "subject": {"reference": "Patient/marcus-williams-001"},
+        "requester": {"display": "Dr. Priya Patel, MD NPI:1447263890"},
+        "reasonCode": [{"coding": [{"code": "A41.9", "display": "Sepsis"}]}],
+        "note": [{"text": "PA required. Penicillin anaphylaxis precludes pip-tazo. Meropenem indicated per IDSA guidelines."}]
+      }
+    }
+  ]
+}

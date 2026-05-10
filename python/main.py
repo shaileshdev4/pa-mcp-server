@@ -5,6 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from mcp_instance import mcp
 
+from dotenv import load_dotenv
+load_dotenv()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

@@ -1,0 +1,189 @@
+CLINICAL PROGRESS NOTE — ICU DAY 3-5 UPDATE
+Date Range: May 4-6, 2026
+Patient: Marcus Williams
+DOB: April 12, 1968 | Age: 58 | Gender: Male
+MRN: MW-2026-0501
+Attending: Dr. Priya Patel, MD — Critical Care Medicine
+NPI: 1447263890
+Institution: Cleveland General Hospital, Cleveland, OH
+Insurance: UnitedHealthcare | Member ID: UHC-887234901
+
+ADMISSION CONTEXT (RECAP):
+Primary Diagnosis: Sepsis A41.9, Suspected Urinary Source
+Secondary: T2DM (E11.9), CKD Stage 2 (N18.2)
+Current Antibiotic: Meropenem 1g IV q8h (initiated Day 0 — PA approved by UHC)
+Allergies: Penicillin (Anaphylaxis), Sulfonamides (Rash)
+
+===========================================================
+PROCALCITONIN (PCT) SERIAL MONITORING — SSC 2026 PROTOCOL
+===========================================================
+Goal: PCT-guided antibiotic discontinuation per Surviving Sepsis Campaign
+International Guidelines 2026 (SCCM/ESICM).
+
+Day 0 (May 1, 2026 — Admission):
+  Procalcitonin: 18.4 ng/mL (markedly elevated — sepsis confirmed)
+  Clinical context: Acute presentation, qSOFA 3/3, hemodynamically unstable
+
+Day 1 (May 2, 2026):
+  Procalcitonin: 9.2 ng/mL (50% drop from peak)
+  Clinical context: Hemodynamics improving. MAP >65 off vasopressors. WBC 15.1k.
+  Fever persisting: Tmax 38.3°C. Cultures still pending final read.
+
+Day 2 (May 3, 2026):
+  Procalcitonin: 4.1 ng/mL (78% drop from peak of 18.4)
+  Clinical context: Patient more alert, GCS improving to 14. Urine output normalized.
+  Creatinine trending down: 1.6 mg/dL (from 1.8 on admission).
+  Temperature: 37.6°C. Culture results preliminary — see below.
+
+Day 3 (May 4, 2026):
+  Procalcitonin: 0.8 ng/mL (96% drop from peak)
+  Clinical context: Patient clinically improved. GCS 15. Afebrile x24 hours.
+  Creatinine: 1.4 mg/dL (near baseline of 1.2). BUN improving.
+  WBC: 11.2k (trending toward normal). Lactate normalized: 1.1 mmol/L.
+  Culture results FINAL — see microbiology section below.
+
+Day 4 (May 5, 2026):
+  Procalcitonin: 0.3 ng/mL (98% drop from peak — BELOW 0.5 ng/mL absolute threshold)
+  Clinical context: Patient ambulating in room. Taking oral fluids. GCS 15.
+  Afebrile x48 hours. Hemodynamically stable off all vasopressors.
+  Urine output: normal. No new clinical concerns.
+
+PCT Trend Summary:
+  Day 0: 18.4 ng/mL (Peak)
+  Day 1: 9.2 ng/mL
+  Day 2: 4.1 ng/mL
+  Day 3: 0.8 ng/mL
+  Day 4: 0.3 ng/mL (BELOW absolute stopping threshold of 0.5 ng/mL)
+
+SSC 2026 PCT-Guided Stopping Assessment:
+  Current PCT (Day 4): 0.3 ng/mL
+  Absolute threshold (SSC 2026): < 0.5 ng/mL — CRITERION MET
+  Percent drop: 98.4% from peak — CRITERION MET (threshold: ≥80% drop)
+  Recommendation: BOTH stopping criteria satisfied. Safe to consider
+  antibiotic discontinuation in conjunction with clinical evaluation.
+
+===========================================================
+MICROBIOLOGY — FINAL CULTURE RESULTS
+===========================================================
+Report Date: May 4, 2026 (Day 3 post-admission)
+Ordering Provider: Dr. Priya Patel, MD
+
+BLOOD CULTURES (x2 sets drawn May 1, 2026 at 11:50 AM):
+  Result: NO GROWTH x5 days — NEGATIVE (Final)
+  Interpretation: Bacteremia ruled out. Consistent with urinary source
+  without hematogenous spread.
+
+URINE CULTURE (clean catch, May 1, 2026):
+  Specimen type: Urine (catheter specimen)
+  Culture date: May 1, 2026
+  Report date: May 4, 2026
+  Result status: FINAL
+
+  Organism: Escherichia coli (E.coli)
+  Colony count: >100,000 CFU/mL (significant growth)
+  Gram stain: Gram-negative rods
+
+  ANTIBIOTIC SUSCEPTIBILITY (FINAL):
+    SENSITIVE (organism susceptible — treatment appropriate):
+      Ceftriaxone          MIC: ≤1 µg/mL    (S)
+      Cefazolin            MIC: ≤2 µg/mL    (S)
+      Gentamicin           MIC: ≤1 µg/mL    (S)
+      Amikacin             MIC: ≤2 µg/mL    (S)
+      Nitrofurantoin       MIC: ≤32 µg/mL   (S) — oral option if needed
+      Trimethoprim/Sulfa   MIC: ≤2/38       (S) — NOTE: patient has sulfonamide allergy (rash) — use with caution
+
+    INTERMEDIATE:
+      Cefepime             MIC: 4 µg/mL     (I)
+
+    RESISTANT (organism resistant — do NOT use):
+      Ciprofloxacin        MIC: >4 µg/mL    (R) — RESISTANT
+      Levofloxacin         MIC: >4 µg/mL    (R) — RESISTANT
+      Ampicillin           MIC: >32 µg/mL   (R) — RESISTANT
+      Ampicillin-Sulbactam MIC: >16/8 µg/mL (R) — RESISTANT
+
+  ESBL Testing: NEGATIVE — Not an ESBL-producing strain.
+  Carbapenem resistance: NOT detected. Meropenem NOT required for coverage.
+
+  Microbiology Interpretation:
+  Non-ESBL E.coli UTI with bacteremia ruled out. Current Meropenem coverage
+  is appropriate empirically but BROADER THAN NECESSARY based on sensitivities.
+  De-escalation to Ceftriaxone is clinically appropriate and strongly recommended
+  per IDSA Antimicrobial Stewardship Guidelines 2023.
+
+  Preferred Narrow Agent: Ceftriaxone 1g IV q24h (sensitive, MIC ≤1 µg/mL)
+  NOTE on Ciprofloxacin: Patient's organism is FLUOROQUINOLONE-RESISTANT.
+  Fluoroquinolone oral step-down is NOT appropriate for this patient.
+  Step-down option: Nitrofurantoin 100mg PO BID (sensitive) if UTI-only,
+  hemodynamically stable, and tolerating oral medications.
+
+===========================================================
+CURRENT CLINICAL STATUS (Day 5 — May 6, 2026)
+===========================================================
+Vitals (May 6, 2026 06:00):
+  BP: 122/78 | HR: 76 | RR: 14 | Temp: 36.8°C | SpO2: 98% | GCS: 15
+
+Clinical Assessment:
+  - Patient fully alert and oriented x3
+  - Afebrile x72 hours
+  - Hemodynamically stable — no vasopressor support since Day 1
+  - Tolerating oral fluids and soft diet
+  - Ambulating independently in room
+  - Urinary catheter removed Day 4 — voiding normally
+
+Labs (May 5, 2026):
+  WBC: 9.8k (normalized — within normal range)
+  Creatinine: 1.3 mg/dL (near baseline of 1.2, AKI resolving)
+  eGFR: 56 mL/min (recovering, watch Ceftriaxone dosing — no adjustment needed)
+  Glucose: 138 mg/dL (improving — Metformin still held pending full renal recovery)
+  Lactate: 1.0 mmol/L (normal — tissue perfusion restored)
+  PCT: 0.3 ng/mL (see serial monitoring above)
+
+Infection Source Confirmed: E.coli UTI (urine culture positive)
+Source control: Adequate — urinary drainage + catheter management
+
+Antibiotic Stewardship Note:
+  Current therapy: Meropenem 1g IV q8h — Day 5
+  Culture sensitivity confirms: Meropenem is BROADER THAN NECESSARY.
+  E.coli sensitive to Ceftriaxone (first-line narrow agent).
+  De-escalation clinically appropriate and indicated per:
+  - IDSA Antimicrobial Stewardship Guidelines 2023
+  - Surviving Sepsis Campaign 2026: "Recommend de-escalation
+    when culture results support narrower spectrum therapy"
+  - Harvard PINC AI data: De-escalation reduces AKI risk 20%,
+    ICU readmission 41%, in-hospital mortality 8% (JAMA IM 2025)
+
+Discharge Planning (initiated):
+  Target discharge: May 7-8, 2026 (Day 6-7) if clinical trajectory maintained
+  Follow-up: PCP within 7 days (CBC, CMP, Procalcitonin at 14 days)
+  Antibiotic plan: De-escalate to Ceftriaxone IV → consider oral step-down
+  to Nitrofurantoin if tolerating PO and source confirmed limited to UTI
+  Diabetes management: Resume Metformin when Creatinine stable at baseline
+  Post-sepsis syndrome counseling: Required per SSC 2026 before discharge
+
+Current Medications (Active):
+  Meropenem 1g IV q8h (Day 5 — PENDING DE-ESCALATION per culture results)
+  Atorvastatin 40mg nightly
+  Aspirin 81mg daily
+  Insulin sliding scale (Metformin held — renal recovery)
+  Lisinopril 10mg daily (restarted Day 4 — BP/renal stable)
+  Subcutaneous heparin 5000 units q8h (DVT prophylaxis)
+
+ALLERGIES (confirmed active):
+  Penicillin — Anaphylaxis (documented 2019) — HIGH RISK
+  Sulfonamides — Rash — avoid TMP-SMX despite sensitivity on culture
+
+===========================================================
+ATTENDING ATTESTATION
+===========================================================
+I, Dr. Priya Patel, MD, attest that:
+- Patient evaluated in person on May 6, 2026
+- Clinical improvement confirmed — meeting discharge criteria trajectory
+- Culture-directed de-escalation from Meropenem to Ceftriaxone is
+  medically appropriate and consistent with IDSA stewardship guidelines
+- PCT-guided antibiotic discontinuation criteria met per SSC 2026
+- Discharge package preparation authorized
+
+Dr. Priya Patel, MD
+Critical Care Medicine | Cleveland General Hospital
+NPI: 1447263890 | License: OH-CCM-78234
+Phone: 216-555-0198 | Fax: 216-555-0199

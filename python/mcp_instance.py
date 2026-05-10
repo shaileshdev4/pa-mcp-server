@@ -12,6 +12,9 @@ from tools.create_pa_audit_record_tool import create_pa_audit_record
 from tools.verify_pa_letter_tool import verify_pa_letter
 from tools.prepare_peer_to_peer_tool import prepare_peer_to_peer
 
+from dotenv import load_dotenv
+load_dotenv()
+
 mcp = FastMCP("PA Tools MCP", stateless_http=True, host="0.0.0.0")
 
 _original_get_capabilities = mcp._mcp_server.get_capabilities

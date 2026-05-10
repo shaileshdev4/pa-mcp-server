@@ -1,0 +1,47 @@
+MICROBIOLOGY REPORT — FINAL CULTURE RESULTS
+Date: May 4, 2026
+Patient: Marcus Williams | MRN: MW-2026-0501
+Ordering Physician: Dr. Priya Patel, MD | NPI: 1447263890
+
+CURRENT ANTIBIOTIC: Meropenem 1g IV q8h (empiric, Day 5)
+
+INFECTION SOURCE: Urinary tract infection (UTI)
+
+BLOOD CULTURE RESULTS:
+Specimen: Blood (x2 sets drawn May 1, 2026)
+Result Status: final
+Organism: No growth
+Interpretation: Bacteremia ruled out
+
+URINE CULTURE RESULTS:
+Specimen: Urine catheter specimen (collected May 1, 2026)
+Result Status: final
+Culture Date: May 1, 2026
+Report Date: May 4, 2026
+Organism: Escherichia coli
+Colony Count: greater than 100000 CFU/mL
+
+ANTIBIOTIC SENSITIVITIES:
+Sensitive: Ceftriaxone, Cefazolin, Gentamicin, Amikacin, Nitrofurantoin
+Resistant: Ciprofloxacin, Levofloxacin, Ampicillin, Ampicillin-Sulbactam
+
+SPECIAL RESISTANCE TESTING:
+ESBL: Negative (not an ESBL-producing strain)
+Carbapenem resistance: Not detected
+
+CLINICAL IMPROVEMENT STATUS: true
+Patient is afebrile, hemodynamically stable, and ambulating. GCS 15.
+Urinary catheter removed Day 4. Source control confirmed.
+
+PATIENT ALLERGIES:
+Penicillin (Anaphylaxis)
+Sulfonamides (Rash)
+
+ANTIBIOTIC STEWARDSHIP NOTE:
+Current Meropenem therapy is broader than necessary based on final culture
+sensitivities. E. coli is fully sensitive to Ceftriaxone (MIC 1 mcg/mL).
+ESBL-negative strain does not require carbapenem coverage.
+De-escalation to Ceftriaxone 1g IV every 24 hours is clinically appropriate
+and recommended per IDSA Antimicrobial Stewardship Guidelines 2023.
+Note: Organism is resistant to fluoroquinolones. Ciprofloxacin oral
+step-down is NOT appropriate for this patient.

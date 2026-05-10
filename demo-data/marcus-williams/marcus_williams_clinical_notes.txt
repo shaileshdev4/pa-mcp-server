@@ -1,0 +1,104 @@
+CLINICAL DOCUMENTATION — EMERGENCY DEPARTMENT & ICU ADMISSION
+Date: May 1, 2026
+Patient: Marcus Williams
+DOB: April 12, 1968 | Age: 58 | Gender: Male
+MRN: MW-2026-0501
+Attending: Dr. Priya Patel, MD — Critical Care Medicine
+NPI: 1447263890
+Institution: Cleveland General Hospital, Cleveland, OH
+Insurance: UnitedHealthcare | Member ID: UHC-887234901
+
+PRIMARY DIAGNOSIS:
+Sepsis (ICD-10: A41.9) — Suspected Urinary Source
+Secondary: Type 2 Diabetes Mellitus (E11.9), Chronic Kidney Disease Stage 2 (N18.2)
+
+CHIEF COMPLAINT:
+58-year-old male with T2DM and CKD2 presenting with 18-hour history of
+fever, chills, confusion, and decreased urine output.
+
+VITAL SIGNS TREND (Last 6 Hours):
+Time 06:00: BP 118/72, HR 88, RR 16, Temp 37.8°C, SpO2 97%, GCS 15
+Time 08:00: BP 104/68, HR 98, RR 18, Temp 38.4°C, SpO2 96%, GCS 14
+Time 10:00: BP 92/58, HR 112, RR 21, Temp 38.9°C, SpO2 94%, GCS 13
+Time 11:30: BP 88/54, HR 118, RR 22, Temp 39.1°C, SpO2 93%, GCS 12
+
+qSOFA Score: 3/3 (altered mentation, RR >22, SBP <100) — HIGH RISK
+SIRS Criteria: 4/4 MET
+
+LABORATORY RESULTS (May 1, 2026 — 11:45 AM):
+CBC:
+  WBC: 18,200 cells/uL (elevated — left shift noted)
+  Neutrophils: 84% | Bands: 12%
+  Hemoglobin: 11.2 g/dL
+  Platelets: 142,000/uL (trending down from 198k yesterday)
+
+Metabolic Panel:
+  Sodium: 134 mEq/L | Potassium: 4.8 mEq/L
+  Creatinine: 1.8 mg/dL (baseline 1.2) | BUN: 34
+  eGFR: 42 mL/min (acute decline from baseline 58)
+  Glucose: 248 mg/dL
+  Bicarbonate: 19 mEq/L (low — metabolic acidosis)
+
+Sepsis Markers:
+  Lactate: 2.8 mmol/L (elevated — tissue hypoperfusion)
+  Procalcitonin: 18.4 ng/mL (markedly elevated)
+  CRP: 284 mg/L (severely elevated)
+
+Urinalysis:
+  WBC >50/hpf | RBC 8/hpf | Bacteria 4+ | Nitrite POSITIVE
+  Leukocyte esterase 3+
+
+Blood Cultures: PENDING (x2 sets drawn at 11:50 AM)
+Urine Culture: PENDING
+
+IMAGING:
+Chest X-Ray (May 1, 2026 12:00 PM):
+  No consolidation. Mild pulmonary vascular congestion bilaterally.
+  No pneumothorax. Heart size normal.
+
+CURRENT MEDICATIONS:
+  Metformin 1000mg BID (HELD — acute kidney injury)
+  Lisinopril 10mg daily (HELD — hypotension)
+  Atorvastatin 40mg nightly
+  Aspirin 81mg daily
+
+ALLERGIES:
+  Penicillin — Anaphylaxis (documented 2019)
+  Sulfonamides — Rash
+
+SEPSIS BUNDLE STATUS (Hour-1):
+  [COMPLETED] Blood cultures x2 drawn
+  [COMPLETED] Lactate measured: 2.8
+  [PENDING] Broad-spectrum antibiotics — PA required for Meropenem
+  [PENDING] 30mL/kg IV crystalloid bolus
+  [PENDING] Repeat lactate in 2 hours
+  [PENDING] ICU transfer
+
+PRIOR AUTHORIZATION REQUIRED:
+Medication: Meropenem 1g IV q8h (carbapenem — PA required per UHC policy)
+Rationale: Penicillin allergy precludes first-line piperacillin-tazobactam.
+Cephalosporin cross-reactivity risk given severity of documented penicillin anaphylaxis.
+Meropenem is the appropriate beta-lactam alternative per IDSA sepsis guidelines.
+Duration: 7 days pending culture sensitivities.
+CPT Code: J2185
+
+CLINICAL ASSESSMENT:
+Patient meets sepsis criteria with suspected urinary source. Hemodynamic
+instability (MAP <65), elevated lactate, and acute organ dysfunction
+(AKI, altered mentation) indicate septic shock trajectory.
+Immediate ICU admission and empiric antimicrobial therapy are time-critical.
+Every hour of antibiotic delay increases mortality by 7%.
+
+ATTENDING ATTESTATION:
+I, Dr. Priya Patel, MD, board-certified in Critical Care Medicine,
+attest that:
+- Patient evaluated in person at 12:00 PM May 1, 2026
+- Meropenem is medically necessary given penicillin anaphylaxis history
+- No clinically appropriate alternative exists given allergy profile
+- Treatment delay poses immediate life-threatening risk
+- Patient and family verbal consent obtained (patient GCS 12)
+
+Dr. Priya Patel, MD
+Critical Care Medicine | Cleveland General Hospital
+NPI: 1447263890 | License: OH-CCM-78234
+Phone: 216-555-0198 | Fax: 216-555-0199
