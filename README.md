@@ -4,6 +4,8 @@
 
 Built for [Agents Assemble — The Healthcare AI Endgame](https://agents-assemble.devpost.com) (May 2026).
 
+![PA workflow flowchart](visuals/pa_workflow.png)
+
 | Resource | Link |
 |----------|------|
 | **GitHub (this MCP + demo data)** | [github.com/shaileshdev4/pa-mcp-server](https://github.com/shaileshdev4/pa-mcp-server) |
@@ -12,9 +14,15 @@ Built for [Agents Assemble — The Healthcare AI Endgame](https://agents-assembl
 
 The **PA Authorization Agent** (BYO) orchestrates these tools; judges attach **this MCP** in Launchpad and run the demo prompts below.
 
-Also see the upstream Prompt Opinion community overview and [SHARP-on-MCP](https://www.sharponmcp.com/) — this **fork** keeps only the **Python** PA Tools MCP and demo assets for the hackathon.
+**Repository layout:** `python/` (FastMCP server), `demo-data/` (synthetic patient charts), `DEMO_VIDEO_SCRIPT_FINAL.md`, `Procfile` (e.g. Railway), `README.md`, `.gitignore`.
 
-**Repository layout (submission only):** `python/` (FastMCP server), `demo-data/` (synthetic patients), `DEMO_VIDEO_SCRIPT_FINAL.md`, `Procfile` (e.g. Railway), `README.md`, `.gitignore`. No .NET, TypeScript, or template CI in this public branch.
+---
+
+## Submission visuals
+
+### 12-tool capability map
+
+![PA capability map](visuals/pa_capability_map.jpg)
 
 ---
 
@@ -31,9 +39,8 @@ Bundled under **`demo-data/`** at this repository root:
 | Patient | Folder / files | Use |
 |---------|----------------|-----|
 | **Marcus Williams** | `demo-data/marcus-williams/` — `marcus_williams_clinical_notes.txt`, `marcus_williams_day3_clinical_update.txt`, `marcus_williams_culture_simple.txt`, `marcus_williams_fhir_bundle.json` | ICU sepsis, **UnitedHealthcare**, Meropenem / penicillin anaphylaxis narrative |
-| **Jennifer Mitchell** | `demo-data/jennifer-mitchel/jennifer mitchell.txt` | Oncology **Aetna**, HD-MTX / ALL |
 
-Upload contents as **`DocumentReference`** resources for each synthetic patient before recording.
+Upload contents as **`DocumentReference`** resources for this synthetic patient before recording.
 
 ---
 
@@ -45,14 +52,12 @@ Full narration and timing: **`DEMO_VIDEO_SCRIPT_FINAL.md`**.
 1. Run a full PA workflow for this patient, payer is UnitedHealthcare
 
 2. Previous request was denied — step therapy not completed. Peer-to-peer review required within 24 hours.
-
-3. Run a full PA workflow for this patient, payer is Aetna
 ```
 
-Alternate generic opener:
+Alternate opener:
 
 ```text
-run a prior authorization workflow for this patient, payer is Aetna
+run a prior authorization workflow for this patient, payer is UnitedHealthcare
 ```
 
 ---
@@ -115,6 +120,15 @@ curl -i http://localhost:8000/
 4. Refetch tools — confirm **12** tools.
 
 For **sepsis + PA** end-to-end, attach **[sepsis-mcp-server](https://github.com/shaileshdev4/sepsis-mcp-server)** as well.
+
+---
+
+## Clinical evidence
+
+- PA delay mortality cost — Kumar et al., *CCM* 2006 (7% per hour in septic shock)
+- Physician PA burden — AMA Prior Authorization Survey 2023 (13 hours/week)
+- First-submission denial rate — CAQH Index 2024 (29%)
+- CMS-0057-F — Federal FHIR PA API mandate, January 2027
 
 ---
 

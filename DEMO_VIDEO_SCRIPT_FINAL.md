@@ -8,7 +8,7 @@ Use with **BYO — PA Authorization Agent** on Prompt Opinion, **PA Tools MCP** 
 
 ## Testing prompts (copy-paste — run in order)
 
-Use after uploading bundled **`demo-data`** as FHIR **`DocumentReference`** content for each patient (see **[`README.md`](../README.md)** in this repo).
+Use after uploading bundled **`demo-data/marcus-williams/`** as FHIR **`DocumentReference`** content for **Marcus Williams** (see **`README.md`** in this repository).
 
 ### Marcus Williams — run 1 (full PA packet)
 
@@ -20,18 +20,6 @@ Run a full PA workflow for this patient, payer is UnitedHealthcare
 
 ```text
 Previous request was denied — step therapy not completed. Peer-to-peer review required within 24 hours.
-```
-
-### Jennifer Mitchell — breadth (oncology / Aetna)
-
-```text
-Run a full PA workflow for this patient, payer is Aetna
-```
-
-**Optional smoke prompt (any payer profile):**
-
-```text
-run a prior authorization workflow for this patient, payer is Aetna
 ```
 
 ---
@@ -56,11 +44,10 @@ Denial flow adds: `GenerateAppealLetter`, `PreparePeerToPeer`.
 ## Pre-recording checklist
 
 - [ ] **Marcus Williams** — documents uploaded and verified in PO (see `demo-data/marcus-williams/`).
-- [ ] **Jennifer Mitchell** — documents uploaded (`demo-data/jennifer-mitchel/jennifer mitchell.txt`).
 - [ ] **PA Authorization Agent** set as default for the session.
 - [ ] Browser zoom **110%** (text readable on recording).
 - [ ] **Do Not Disturb** on; only PO tab needed.
-- [ ] **Test run** completed — Marcus run 1 + denial flow + Jennifer outputs clean (no raw JSON on screen if avoidable).
+- [ ] **Test run** completed — Marcus run 1 + denial flow outputs clean (no raw JSON on screen if avoidable).
 - [ ] Script printed — **do not read from this screen while recording** (use printed copy or teleprompter).
 
 ---
@@ -73,9 +60,8 @@ Denial flow adds: `GenerateAppealLetter`, `PreparePeerToPeer`.
 | Problem / setup | 0:22–0:42 | PO open, patient list, Marcus, PA agent selected |
 | Trigger | 0:42–0:55 | Type Marcus prompt 1, let tools show ~5 s |
 | Marcus run 1 | 0:55–1:45 | Scroll packet — coverage, docs 100%, letter, verify ~0.7, allergies |
-| Marcus run 2 | 1:45–2:10 | Denial prompt → appeal → P2P prep (**payer:** UnitedHealthcare for Marcus) |
-| Jennifer | 2:10–2:35 | Switch patient, Aetna prompt, fast scroll EFS / verification ~0.8 |
-| Close | 2:35–2:50 | MCP ×12, standards, marketplace, CTA |
+| Marcus run 2 | 1:45–2:20 | Denial prompt → appeal → P2P prep (**payer:** UnitedHealthcare for Marcus) |
+| Close | 2:20–2:50 | MCP ×12, standards, marketplace, CTA |
 
 ---
 
@@ -160,7 +146,7 @@ Pause.
 
 ---
 
-### [1:45 – 2:10] Marcus — denial and response
+### [1:45 – 2:20] Marcus — denial and response
 
 **Type (Marcus run 2 prompt):**
 
@@ -182,37 +168,9 @@ Read a contraindication line **from the screen** if present.
 
 ---
 
-### [2:10 – 2:35] Jennifer Mitchell — breadth
+### [2:10 – 2:50] Close
 
-Switch quickly.
-
-**Do:** **Jennifer Mitchell** → **PA Authorization Agent**.
-
-> “Different patient. Different payer. Different clinical scenario entirely.”
-
-**Type:**
-
-```text
-Run a full PA workflow for this patient, payer is Aetna
-```
-
-While tools run:
-
-> “Jennifer Mitchell. Forty-three. High-risk B-cell ALL. Aetna. HD-Methotrexate.”
-
-Scroll fast to justification — **NCCN / EFS** lines if present — then verification.
-
-> “NCCN-aligned rationale and trial context where documented. Safety verification — physician signs and submits.” *(Quote actual verdict/score from screen.)*
-
-Pause.
-
-> “Two patients. Two payers. Two clinical crises. Same agent. Same one-sentence trigger.”
-
----
-
-### [2:35 – 2:50] Close
-
-> “Twelve MCP tools. Multiple clinical scenarios. Built on open standards — MCP, FHIR R4, CMS-0057-F alignment for future payer FHIR APIs.  
+> “Twelve MCP tools on one patient arc — approval, denial, appeal, peer-to-peer prep. Built on open standards — MCP, FHIR R4, CMS-0057-F alignment for future payer FHIR APIs.  
 > The PA Authorization Agent is in the Prompt Opinion Marketplace. Any FHIR-connected patient context you authorize in the workspace — seconds to a draft packet.  
 > Prior authorization doesn’t have to be medicine’s most expensive paperwork problem.”
 
@@ -250,8 +208,7 @@ Keep narrating: *processing chart → coverage check → documentation audit →
 8. Letter verification → safety score  
 9. Allergy / contraindication summary  
 10. Denial prompt → appeal → peer-to-peer  
-11. Jennifer → prompt → justification (EFS / NCCN) → verification  
-12. End on clean output  
+11. End on clean output  
 
 ---
 
